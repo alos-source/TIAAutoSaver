@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <Reference Include="Siemens.Engineering">
-      <HintPath>..\..\..\..\..\..\Program Files\Siemens\Automation\Portal V16\PublicAPI\V15.1\Siemens.Engineering.dll</HintPath>
+      <HintPath>C:\Program Files\Siemens\Automation\Portal V18\PublicAPI\V18\Siemens.Engineering.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Remoting">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Runtime.Remoting.dll</HintPath>
