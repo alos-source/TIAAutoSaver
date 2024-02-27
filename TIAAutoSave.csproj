@@ -15,7 +15,7 @@
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\JAP\OneDrive - H. Kleinknecht &amp; Co. GmbH - Siegen\Desktop\TIAAutoSave\</PublishUrl>
+    <PublishUrl>C:\Users\Public\Documents\VisualStudio\Builds\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
