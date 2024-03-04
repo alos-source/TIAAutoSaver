@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Siemens.Collaboration.Net;
 using Siemens.Engineering;
 
 namespace TIAAutoSave
@@ -12,6 +13,7 @@ namespace TIAAutoSave
         public TIAAutoSave(object constructor)
         {
             this.myConstructor = constructor;
+            
         }
         public void Run()
         {
@@ -48,6 +50,7 @@ namespace TIAAutoSave
         {
             TIAAutosaveForm tIAAutosaveForm = (TIAAutosaveForm)myConstructor;
             IList<TiaPortalProcess> processes = tIAAutosaveForm.GetAutosaveProcesses();
+            // Api.Global.Openness().Initialize();
             TiaPortal MyTiaPortal;
             //Loop through all TIA portal processes and attempt to save
             foreach (var process in processes)

@@ -4,6 +4,7 @@ using System.IO;
 using System.Runtime.Remoting.Channels.Ipc;
 using System.Threading;
 using System.Windows.Forms;
+using Siemens.Collaboration.Net;
 using Siemens.Engineering;
 
 namespace TIAAutoSave
@@ -324,6 +325,7 @@ namespace TIAAutoSave
         }
         static void Main(String[] args)
         {
+            Api.Global.Openness().Initialize(); // initialize tia openness resolver before first use of siemens.engineering.dll
             TIAAutosaveForm tIAAutosaveForm = new TIAAutosaveForm();
             tIAAutosaveForm.CreateIPCServer();
             TIAAutoSaveServer.tIAAutosaveForm = tIAAutosaveForm;
