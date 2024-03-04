@@ -31,5 +31,6 @@ TIAAutoSaveStarter is an additional small program that lets you create a shortcu
 ```
 
 # References
-- [TIAAutoSaver (source for this project)](https://github.com/alos-source/TIAAutoSaver)
-- [Siemens Description for NuGet Packages](https://support.industry.siemens.com/cs/ww/en/view/109815895)
+- [TIAAutoSaver](https://github.com/alos-source/TIAAutoSaver) (source for this project)
+- [TIAAutoSaver](https://github.com/Schievel1/TIAAutoSaver) (original source, this project is forked from)
+- Siemens Description for NuGet Packages in [SIOS](https://support.industry.siemens.com/cs/ww/en/view/109815895)
